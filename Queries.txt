@@ -1,0 +1,29 @@
+Query 1
+select ProductName
+from Products
+Where ProductName like '%C%'
+--------------------------------
+Query 2
+SELECT * 
+FROM Products 
+WHERE Price = (SELECT MIN(Price) FROM Products )
+--------------------------------
+Query 3
+SELECT SUM(Price) 
+FROM Products,Suppliers
+WHERE Suppliers.Country = 'USA';
+
+Select * 
+FROM Products,Suppliers
+WHERE Suppliers.Country = 'USA';
+--------------------------------
+Query 4
+select Suppliers.SupplierName
+from Suppliers,Products,Categories
+where Suppliers.Id = Products.SupplierID and Categories.Id = Products.CategoryID and Categories.CategoryName = 'Condiments'
+--------------------------------
+Query 5
+
+INSERT INTO Suppliers (Id, SupplierName,City, Country) VALUES (6,'Norske Meierier','Lviv','Ukraine');
+INSERT INTO Products (Id,SupplierID,ProductName,Price,CategoryID) values (6,(SELECT Suppliers.Id from Suppliers where Suppliers.SupplierName='Norske Meierier'),'Green tea',10,1);
+--------------------------------

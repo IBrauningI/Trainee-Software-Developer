@@ -1,0 +1,11 @@
+C:\Users\IBRAU\source\repos\DataBase\DataBase\bin\Debug\Database1.mdf
+C:\Users\IBRAU\source\repos\DataBase\DataBase\bin\Debug\Database1_log.ldf
+C:\Users\IBRAU\source\repos\DataBase\DataBase\bin\Debug\DataBase.exe.config
+C:\Users\IBRAU\source\repos\DataBase\DataBase\bin\Debug\DataBase.exe
+C:\Users\IBRAU\source\repos\DataBase\DataBase\bin\Debug\DataBase.pdb
+C:\Users\IBRAU\source\repos\DataBase\DataBase\obj\Debug\DataBase.csproj.AssemblyReference.cache
+C:\Users\IBRAU\source\repos\DataBase\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+C:\Users\IBRAU\source\repos\DataBase\DataBase\obj\Debug\DataBase.csproj.GenerateResource.cache
+C:\Users\IBRAU\source\repos\DataBase\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\IBRAU\source\repos\DataBase\DataBase\obj\Debug\DataBase.exe
+C:\Users\IBRAU\source\repos\DataBase\DataBase\obj\Debug\DataBase.pdb
